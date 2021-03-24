@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@300;500;700&display=swap');
+
+.servicesComp{
+    font-family: 'Tajawal', sans-serif;
+}
+.headingGroup{
+    text-align: right;
+}
+.heading{
+    color: #3EAF60;
+    font-size: 30px;
+}
+.subHeading{
+    color:#777777;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.services{
+    width: 627px;
+    border-radius: 10px;
+    margin-bottom: 22px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.servicesChecked{
+    background-color:#3EAF60 ;
+    width: 627px;
+    border-radius: 10px;
+    margin-bottom: 22px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.cardDetails{
+    display: flex;
+}
+.card{
+    text-align: right;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+.cardTitle{
+    font-size: 18px;
+    padding-right: 5px;
+    transition: 0.2s;
+
+}
+.cardTitleChecked{
+    font-size: 18px;
+    padding-right: 5px;
+    color: white;
+}
+.cardSubtitle{
+    font-size: 14px;
+    font-weight: 300;
+    padding-right: 5px;
+    transition: 0.2s;
+}
+.cardSubtitleChecked{
+    font-size: 14px;
+    font-weight: 300;
+    padding-right: 5px;
+    transition: 0.2s;
+    color: white;
+}
+.cardBtn{
+    border-radius: 20px;
+    padding: 0px 40px;
+    font-size: 14px;
+    background-color: #7FCD99 !important;
+    border-color:#7FCD99 !important ;
+    transition: 0.2s;
+    opacity: 1 !important;
+}
+.doneIcon{
+    display: none;
+}
+.doneIconChecked{
+    display: block;
+    color: white;
+    padding: 7px;
+}
+.cardIcon{
+    color: rgb(211, 211, 211);
+}
+.cardIconChecked{
+    color: white;
+}
